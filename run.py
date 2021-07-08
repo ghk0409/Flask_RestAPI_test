@@ -1,8 +1,8 @@
-from situation_Season.recommand_season import season_module
-from situation_Time.recommand_time import time_module
-from situation_Weather.recommand_weather import weather_module, weatherType_api
-from situation_Emotion.recommand_emotion import emotion_module
-from module import find_user
+from Module.situation_Season.recommand_season import season_module
+from Module.situation_Time.recommand_time import time_module
+from Module.situation_Weather.recommand_weather import weather_module, weatherType_api
+from Module.situation_Emotion.recommand_emotion import emotion_module
+from Module.module import find_user
 from flask import Flask, request, jsonify
 import time
 
